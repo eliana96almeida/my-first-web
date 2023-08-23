@@ -1,96 +1,144 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio - Eliana Almeida</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-image: url('background.jpg'); /* Cambia 'background.jpg' por la ruta de tu imagen de fondo */
-            background-size: cover;
-            background-repeat: no-repeat;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente */
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        .section {
-            margin-bottom: 30px;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para las secciones */
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        h1 {
-            color: #333;
-        }
-        h2 {
-            color: #555;
-        }
-        p {
-            color: #777;
-        }
-        ul {
-            color: #777;
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Eliana Almeida - Portafolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Mi Portafolio - Eliana Almeida</h1>
-    </header>
+  <header>
     <div class="container">
-        <section class="section" id="inicio">
-            <h2>Inicio</h2>
-            <p>Bienvenido a mi portafolio personal. Soy Eliana Almeida Aragón y te invito a explorar mi trayectoria en negocios, ventas y educación.</p>
-        </section>
-
-        <section class="section" id="habilidades">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>Desarrollo de relaciones sólidas con clientes y colaboradores.</li>
-                <li>Análisis de mercado y estrategias comerciales innovadoras.</li>
-                <li>Habilidad para negociar y cerrar acuerdos exitosos.</li>
-                <li>Gestión de cuentas clave y resolución de problemas.</li>
-                <li>Educación de idiomas con énfasis en propósitos específicos.</li>
-                <li>Experiencia en programas de certificación como TOEFL e IELTS.</li>
-                <li>Dominio de inglés, español y francés (Professional Working).</li>
-            </ul>
-        </section>
-
-        <section class="section" id="triunfos">
-            <h2>Triunfos y Logros</h2>
-            <p>A lo largo de mi carrera, he logrado destacar en la gestión de cuentas internacionales, el cierre de negocios exitosos y la creación de estrategias innovadoras.</p>
-        </section>
-
-        <section class="section" id="experiencias">
-            <h2>Experiencia Laboral</h2>
-            <p>He trabajado en roles clave, como Gerente de Cuentas Clave en Baterías Ecuador y Estratega en Ventas en FORZA Laser, donde aplicé mi experiencia en análisis de mercado y relaciones comerciales.</p>
-        </section>
-
-        <!-- ... Otras secciones ... -->
+      <a href="/">
+        <img src="logo.png" alt="Eliana Almeida logo">
+      </a>
+      <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
     </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Portafolio de Eliana Almeida</h1>
+        <p>Bienvenido a mi portafolio personal. Soy experta en negocios, ventas y educación. ¡Explora mi trayectoria!</p>
+        <a href="#contacto" class="btn">Contactar</a>
+      </div>
+    </section>
+    <section class="section" id="habilidades">
+      <div class="container">
+        <h2>Aptitudes principales</h2>
+        <ul>
+          <li>Desarrollo de relaciones</li>
+          <li>Contabilidad</li>
+          <li>Satisfacción del cliente</li>
+        </ul>
+        <h2>Languages</h2>
+        <ul>
+          <li>Francés (Professional Working)</li>
+          <li>Español (Native or Bilingual)</li>
+          <li>Inglés (Full Professional)</li>
+        </ul>
+        <h2>Certifications</h2>
+        <ul>
+          <li>Technical English for Professionals</li>
+          <li>Curso Profesional de Scrum</li>
+          <li>Google Data Studio</li>
+          <li>Managing an Agile Team</li>
+          <li>Trademark Law</li>
+        </ul>
+      </div>
+    </section>
+    <section class="section" id="experiencia">
+      <div class="container">
+        <h2>Experiencia</h2>
+        <!-- Agrega aquí las secciones de experiencia -->
+      </div>
+    </section>
+    <section class="section" id="contacto">
+      <div class="container">
+        <h2>Contacto</h2>
+        <p>+593 987755653 (Móvil)</p>
+        <p>ely96almeida@gmail.com</p>
+        <p><a href="www.linkedin.com/in/elianaalmeida-aragon">LinkedIn</a></p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Eliana Almeida</p>
+    </div>
+  </footer>
 </body>
 </html>
+<style>
+/* Agrega aquí tus estilos CSS */
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  width: 100px;
+}
+
+header nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+main {
+  padding: 20px 0;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.hero {
+  background-image: url(hero-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 500px;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.hero p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.work img {
+  width: 100%;
+}
+
+.contact img {
+  width: 100%;
+}
+
+</style>
